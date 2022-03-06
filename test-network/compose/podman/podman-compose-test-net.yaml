@@ -10,10 +10,6 @@ services:
     volumes:
       - ./podman/peercfg:/etc/hyperledger/peercfg
 
-  peer0.org2.example.com:
-    volumes:
-      - ./podman/peercfg:/etc/hyperledger/peercfg
-
   cli:
     volumes:
       - ./podman/peercfg:/etc/hyperledger/peercfg
